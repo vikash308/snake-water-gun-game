@@ -67,8 +67,8 @@ div p {
 }
 
 #result {
-    font-size: 2.5rem;
-    margin: 2rem;
+    font-size: 2.2rem;
+    margin: 1.8rem;
 }
 
 #btn {
@@ -106,7 +106,7 @@ div p {
 
 @media only screen and (max-width: 400px){
     .main{
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
     }
     img{
