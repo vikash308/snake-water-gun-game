@@ -36,7 +36,7 @@ let game = (userchoice) => {
         comscore++;
         compsc.innerHTML= comscore;
     }
-    document.getElementById("rec").innerHTML=`you choose : ${userchoice} <br> Computer choose : ${compchoice}`;
+    document.getElementById("rec").innerHTML=`you choose : ${userchoice} <br> Bot choose : ${compchoice}`;
     document.getElementById("btn").onclick= function(){
         userscore=0;
         comscore =0;
