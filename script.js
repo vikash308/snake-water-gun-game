@@ -23,16 +23,16 @@ let game = (userchoice) => {
     console.log(userchoice);
     console.log(compchoice);
     if (userchoice === compchoice)
-        document.getElementById("result").innerHTML = "Match Draw!!";
+        document.getElementById("result").innerHTML = "Tie!";
 
     if (userchoice == "snake" && compchoice == "water" || userchoice == "water" && compchoice == "gun" || userchoice == "gun" && compchoice == "snake") {
-        document.getElementById("result").innerHTML = "You Win!!";
+        document.getElementById("result").innerHTML = "You Win!";
         userscore++;
         usersc.innerHTML=userscore;
     }
 
     if (userchoice == "water" && compchoice == "snake" || userchoice == "gun" && compchoice == "water" || userchoice == "snake" && compchoice == "gun"){
-        document.getElementById("result").innerHTML = "You Lose!!";
+        document.getElementById("result").innerHTML = "You Lose!";
         comscore++;
         compsc.innerHTML= comscore;
     }
@@ -42,5 +42,7 @@ let game = (userchoice) => {
         comscore =0;
         compsc.innerHTML=0;
         usersc.innerHTML=0;
+        document.getElementById("result").innerHTML = " ";
+        document.getElementById("rec").innerHTML = " ";
     }
 }
