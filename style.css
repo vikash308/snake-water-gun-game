@@ -57,7 +57,7 @@ div p {
     display: flex;
     justify-content: center;
     gap: 8rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #user,
@@ -81,7 +81,7 @@ div p {
     color: black;
     font-weight: bold;
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     border: none;
 }
 #btn:hover{
